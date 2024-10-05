@@ -1,0 +1,27 @@
+.currency-item {
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+}
+.currency-logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.coin-image-coin-type {
+  display: flex;
+  align-items: center;
+}
+.currency-name {
+  color: white;
+}
+.currency-type-container {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+@media(max-width:576px) {
+  .currency-type-container {
+    width: 100px;
+  }
+}
